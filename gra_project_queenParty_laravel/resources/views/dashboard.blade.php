@@ -4,12 +4,10 @@
       <div class="w3-container w3-padding-16">
         <div class="well" style="background: #87F5AF; color: white">   
           <h1><i class="fas fa-newspaper"></i></h1>
-          @foreach ($count_order as $countOrder)
           <div class="well-data">
             <p>Tổng đơn hàng</p>
-            <h1>{{$countOrder}}</h1>
+            <h1>countOrder</h1>
           </div> 
-          @endforeach
         </div>
       </div>
     </div> 

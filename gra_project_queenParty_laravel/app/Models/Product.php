@@ -9,4 +9,7 @@ class Product extends Model
 {
     use HasFactory;
     protected $table = "products";
+    public function service_category(){
+    	return $this->belongsTo("App\Models\ServiceCategory","category_id","id");
+    }
 }

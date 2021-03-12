@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('master');
-// });
-Route::get('/', [
-    'as' => 'dashboard',
-    'uses' => 'App\Http\Controllers\VendorController@getCountOrder'
-]);
+Route::get('/', function () {
+    return view('master');
+});
+// Route::get('/', [
+//     'as' => 'dashboard',
+//     'uses' => 'App\Http\Controllers\VendorController@getCountOrder'
+// ]);
